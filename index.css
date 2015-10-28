@@ -1,0 +1,72 @@
+div{
+	display: inline-block;
+}
+body{
+	background-image: url(fon.jpg);
+	background-size: 100%;
+}
+h3{
+	font-family: 'Lobster', cursive;
+}
+div{
+	padding: 0;
+	margin: 0;
+}
+.hot{
+	width: 450px;
+	height: 350px;
+	font-family: 'Bad Script', cursive;
+}
+.hot img{
+	float: left;
+}
+
+.windows img{
+	float: left;
+}
+.windows h3{
+	text-align: center;
+}
+.windows p{
+	-moz-column-count: 2; 
+    -webkit-column-count: 2; 
+    column-count: 2;
+}
+.windows{
+	height: 400px;
+}
+.winners p{
+	-moz-column-count: 2; 
+    -webkit-column-count: 2; 
+    column-count: 2;
+}
+.winners{
+	width: 50%;
+	float: right;
+}
+p::first-letter
+{
+    color: #b8006e;
+    padding: 0 4px;
+    margin: 0 2px 0 0;
+    font-family: 'Press Start 2P', cursive;
+}
+.one{
+	float: left;
+	width: 200px;
+	height: 100px;
+	padding-left: 200px;
+}
+.two{
+	float: right;
+	width: 200px;
+	height: 100px;
+	padding-right: 200px;
+}
+.zag{
+	letter-spacing: 5px;
+	width: 100%;
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+	font-size: 70px;
+}
